@@ -1,10 +1,10 @@
 import React from 'react';
 import './Header.css';
-import { BsSun } from 'react-icons/bs';
+import {BsSun} from 'react-icons/bs'
 
 export default function Header() {
   return (
-    <header>
+      <>
       <h1>Twolink</h1>
       <nav>
         <ul>
@@ -24,6 +24,6 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-    </header>
+    </>
   );
 }
