@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.card{
+  box-shadow: none;
+  border: 1px solid #2a486b;
+  backgrond: #152e4d;
+}
+
